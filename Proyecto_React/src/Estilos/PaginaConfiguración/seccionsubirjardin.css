@@ -1,0 +1,52 @@
+.o-contenedorPrincipalSubirJardin{
+    padding: 4em 20em 7em 20em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos componente botón subir datos*/
+.o-contenedorBotonSubirDatosJardin{
+    margin-top: 4em;
+    width: 84%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Poppins';
+}
+
+.o-botonguardarinformacionjardin{
+    width: 30%;
+}
+
+.o-botonguardarinformacionjardin button{
+    border: none;
+    cursor: pointer;
+    width: 350px;
+    height: 55px;
+    background: #FCCDCB;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #4D3D3D;
+}
+
+.o-mensajeGuardadoDatos{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    margin-left: 4em;
+}
+
+.o-mensajeGuardadoDatos h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #4D3D3D;
+}
+
+.o-mensajeGuardadoDatos img{
+    width: 32px;
+    margin-right: 0.5em;
+}

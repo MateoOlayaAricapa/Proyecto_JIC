@@ -1,0 +1,86 @@
+.o-ventanaModal{
+    width: 552px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins';
+    background: #FDE2CA;
+    border-radius: 15px;
+    position: absolute;
+    padding: 1em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 4px 4px rgba(174, 174, 174, 0.25);
+}
+
+.o-tituloVentana{
+    display: flex;
+    align-items: center;
+    line-height: 0px;
+    margin: 1em 0em 0em 0em;
+}
+
+.o-tituloVentana h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    color: #4D3D3D;
+}
+
+.o-inputsVentana{
+    display: flex;
+    align-items: center;
+    margin: 2em 0em 2em 0em;
+}
+
+.o-inputsVentana h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    color: #4D3D3D;
+    margin: 0em 1em 0em 0em;
+}
+
+.o-inputsVentana input{
+    width: 31em;
+    padding: 0.7em;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: none;
+}
+
+.o-inputsVentana input:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.o-botonesVentana{
+    display: flex;
+    align-items: center;
+    margin: 0em 0em 1em 0em;
+}
+
+.o-botonesVentana button{
+    width: 12em;
+    height: 3em;
+    cursor: pointer;
+    border: none;
+    background: #8BFFAC;
+    box-shadow: 0px 3px 4px rgba(123, 123, 123, 0.25);
+    border-radius: 15px;
+    margin: 0.5em;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #4D3D3D;
+}
+
+.o-lineaseparadora{
+    width: 83%;
+    border: 0.1em solid #F9D2B0;
+    margin: 0em 0em 1em 0em;
+}

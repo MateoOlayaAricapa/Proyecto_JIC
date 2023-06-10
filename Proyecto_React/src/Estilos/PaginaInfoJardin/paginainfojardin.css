@@ -1,0 +1,75 @@
+.o-contenedorPrincipalPaginaInfoJardin{
+    padding: 4em 15em 4em 15em;
+}
+
+.o-navegacionPagina{
+    font-family: 'Poppins';
+}
+
+.o-rutaspagina{
+    max-height: 40px;
+    background: #FDE2CA;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0em 2em 0em 2em;
+}
+
+.o-rutaspagina button{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #CFA987;
+    transition: 0.2s ease-in-out;
+}
+
+.o-rutaspagina button:hover{
+    color: #4D3D3D;
+}
+
+.o-rutaspagina img{
+    width: 11px;
+    transform: rotate(-90deg);
+    margin: 0em 1em 0em 0.5em;
+}
+
+.o-rutaspagina h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #4D3D3D;
+}
+
+#indicadorJardin{
+    color: #CFA987;
+}
+
+.o-informacionJardinInfantil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3em 0em 0em 0em;
+}
+
+.o-contenedorImagenesDatosDescripcionJardin{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.o-contenedorTituloServiciosNivelesDocentesJardin{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0em 0em 0em 5em;
+}
+
+.o-lineaseparadoraContactos{
+    width: 100%;
+    border: 1px solid #FCCDCB;
+    margin: 2em 0em 0em 0em;
+}

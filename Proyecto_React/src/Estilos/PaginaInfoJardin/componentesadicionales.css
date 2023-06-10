@@ -1,0 +1,145 @@
+.o-carruselImagenesJardin{
+    max-width: 513px;
+    height: 430px;
+}
+
+.o-carruselImagenesJardin img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.o-contenedorDatosDetalle{
+    font-family: 'Poppins';
+    width: 513px;
+    height: 150px;
+    border: 2px solid #FCCDCB;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 2em 0em 0em 0em;
+}
+
+.o-direccionJardin{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.o-contenedorImagenTextoDireccion{
+    display: flex;
+    align-items: center;
+}
+
+.o-contenedorImagenTextoDireccion h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #413543;
+    margin: 0em 0.5em 0em 0.5em;
+}
+
+#imagendireccion{
+    width: 36px;
+}
+
+#imagenseguro{
+    width: 17px;
+}
+
+.o-contenedorTextoDireccion{
+    display: flex;
+    align-items: center;
+}
+
+.o-contenedorTextoDireccion h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #413543;
+}
+
+.o-separadorDatosDetalle{
+    width: 476px;
+    border: 1px solid #FCCDCB;
+}
+
+.o-DniCuposUbicacionJardin{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.o-DniCuposUbicacionJardin h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #413543;
+}
+
+.o-DNI{
+    display: flex;
+    align-items: center;
+}
+
+.o-DNI img{
+    width: 28px;
+    margin: 0em 0.5em 0em 0em;
+}
+
+.o-Cupo{
+    display: flex;
+    align-items: center;
+}
+
+.o-Cupo img{
+    width: 35px;
+}
+
+.o-Ubicacion{
+    display: flex;
+    align-items: center;
+}
+
+.o-Ubicacion img{
+    width: 28px;
+    margin: 0em 0.5em 0em 0em;
+}
+
+.o-textoDescripcionJardin{
+    font-family: 'Poppins';
+    width: 513px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 2em 0em 0em 0em;
+}
+
+.o-tituloDescripcion{
+    width: 100%;
+}
+
+.o-tituloDescripcion h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #413543;
+    margin: 0;
+}
+
+.o-parrafoDescripcion{
+    width: 100%;
+}
+
+.o-parrafoDescripcion p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0.5em 0em 0em 0em;
+}

@@ -1,0 +1,11 @@
+.o-datoIntegrante{
+    width: 100%;
+}
+
+.o-datoIntegrante img{
+    width: 3em;
+    height: 3em;
+    border-radius: 50em;
+    object-fit: cover;
+}
+

@@ -1,0 +1,40 @@
+/* Estilos para el contenedor de introducción */
+.o-contenedorIntroduccion{
+    width: 100%;
+    height: 85.5vh;
+    background: rgba(253, 226, 202, 0.37);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Estilos para el contenedor de textos introducción*/
+.o-textoIntroduccion{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 55em;
+}
+
+.o-textoIntroduccion h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    color: #856C89;
+}
+
+.o-textoIntroduccion p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #413543;
+    text-align: center;
+}
+
+/* Estilos para el contenedor de la imagen introducción */
+.o-contenedorImagenIntroduccion img{
+    width: 34.063em;
+    height: 28.375em;
+}

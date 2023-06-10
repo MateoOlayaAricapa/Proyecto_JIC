@@ -1,0 +1,37 @@
+.o-contenedorMensajeError{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 3em 0em 0em 0em;
+    font-family: 'Poppins';
+}
+
+.o-IconoMensajeError{
+    display: flex;
+    align-items: center;
+}
+
+.o-IconoMensajeError img{
+    width: 278px;
+}
+
+.o-TextosMensajeError{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0em;
+}
+
+.o-TextosMensajeError h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    color: #F6A3FF;
+}
+
+.o-TextosMensajeError h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #413543;
+}

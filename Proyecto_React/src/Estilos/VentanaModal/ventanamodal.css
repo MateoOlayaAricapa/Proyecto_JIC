@@ -1,0 +1,73 @@
+/* Estilos contenedor principal ventana */
+.o-contenedorVentanaModal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFEDEC;
+    border: 2px solid #FCCDCB;
+    border-radius: 18px;
+    width: 374px;
+    height: 81px;
+    margin: 2em 0em 0em 0em;
+}
+
+
+/* Estilos contenedor icono ventana */
+.o-iconoventana{
+    display: flex;
+    align-items: center;
+}
+
+.o-iconoventana img{
+    width: 41px;
+}
+
+/* Estilos contenedor texto ventana */
+.o-textoventana{
+    max-width: 27em;
+    margin: 0em 2em 0em 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.o-textoventana h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: #4D3D3D;
+    margin: 0em;
+}
+
+.o-textoventana p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #4D3D3D;
+    margin: 0em;
+}
+
+/* Estilos botón ventana */
+.o-botonventana{
+    display: flex;
+    align-items: center;
+}
+
+.o-botonventana button{
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 0.938em;
+    width: 34px;
+    height: 33px;
+    transition-duration: 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.o-botonventana button:hover{
+    background: #FFFFFF;
+    border-radius: 10px;
+}

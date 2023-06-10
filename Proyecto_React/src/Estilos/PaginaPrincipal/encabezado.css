@@ -1,0 +1,55 @@
+/* Estilos para el contenedor del encabezado */
+.o-encabezado{
+    padding: 2em 8em 2em 8em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilos para el contenedor la imagne logo */
+.o-contenedorLogo img{
+    width: 8em;
+}
+
+/* Estilos para el contenedor de los botones medios */
+.o-contenedorBotonesMedio button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    color: #4D3D3D;
+    margin: 0.7em;
+    transition-duration: 0.4s;
+}
+
+.o-contenedorBotonesMedio button:hover{
+    color: #FCCDCB;
+}
+
+/* Estilos para el contenedor de los botones registros e inicio */
+.o-contenedorBotonesRegistro button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    color: #4D3D3D;
+    margin: 0.7em;
+}
+
+#o-botonInicioSesion{
+    border: 2px solid #FCCDCB;
+    border-radius: 30px;
+    width: 11.5em;
+    height: 3.188em;
+    transition-duration: 0.4s;
+}
+
+#o-botonInicioSesion:hover{
+    background: #FCCDCB;
+}

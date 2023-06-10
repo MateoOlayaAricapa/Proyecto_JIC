@@ -1,0 +1,209 @@
+/* Estilos componente referencia */
+.o-tituloPrincipalJardin{
+    font-family: 'Poppins';
+    width: 42em;
+}
+
+.o-tituloPrincipalJardin h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    color: #4D3D3D;
+}
+
+/* Estilos componente Contactos Jardín */
+.o-contenedorContactosJardin{
+    font-family: 'Poppins';
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+.o-correoJardin{
+    display: flex;
+    align-items: center;
+}
+
+.o-correoJardin img{
+    width: 38px;
+    margin: 0em 0.5em 0em 0em;
+}
+
+.o-correoJardin h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #413543;
+}
+
+.o-primerTelefono{
+    display: flex;
+    align-items: center;
+}
+
+.o-primerTelefono img{
+    width: 38px;
+    margin: 0em 0.5em 0em 0em;
+}
+
+.o-primerTelefono h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #413543;
+}
+
+.o-segundoTelefono{
+    display: flex;
+    align-items: center;
+}
+
+.o-segundoTelefono img{
+    width: 38px;
+    margin: 0em 0.5em 0em 0em;
+}
+
+.o-segundoTelefono h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #413543;
+}
+
+/* Estilos componente Servicios Jardín */
+.o-contenedorServiciosJardin{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 42em;
+    margin: 1em 0em 1em 0em;
+}
+
+.o-tituloServicios{
+    width: 100%;
+}
+
+.o-tituloServicios h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #413543;
+}
+
+.o-servicios{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+    height: 5em;
+    overflow-x: scroll;
+    padding: 0em 0em 0.5em 0em;
+}
+
+.o-servicios::-webkit-scrollbar{
+    width: 8px;
+    height: 6px;
+}
+
+.o-servicios::-webkit-scrollbar-thumb{
+    background-color: #FACEFF;
+    border-radius: 4px;
+}
+
+.o-nombreServicio{
+    width: 0px;
+    height: 33px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0em 0.5em 0em 0.5em;
+    padding: 0em 4em 0em 4em;
+}
+
+.o-nombreServicio h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+/* Estilos componente Docentes Jardín */
+.o-contenedorDatosDocenteJardin{
+    font-family: 'Poppins';
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 1em 0em 0em 0em;
+    width: 42em;
+}
+
+.o-tituloDocentes{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.o-tituloDocentes h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #413543;
+}
+
+.o-datosDocentes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    width: 100%;
+    height: 11em;
+    margin: 1em 0em 0em 0em;
+}
+
+
+.o-datosDocentes::-webkit-scrollbar{
+    width: 7px;
+    height: 2px;
+}
+
+.o-datosDocentes::-webkit-scrollbar-thumb{
+    background-color: #FACEFF;
+    border-radius: 4px;
+}
+
+.o-docente{
+    display: flex;
+    align-items: center;
+}
+
+.o-imagenDocente{
+    width: 5em;
+    height: 5em;
+    border-radius: 10em;
+    overflow: hidden;
+}
+
+.o-imagenDocente img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.o-textoDocente{
+    font-family: 'Poppins';
+    margin: 0em 0em 0em 1em;
+}
+
+.o-textoDocente h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #413543;
+    line-height: 10px;
+}

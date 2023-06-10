@@ -1,0 +1,174 @@
+.o-contenedorNavBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.5em;
+    border-bottom: 2px solid #FDE2CA;
+}
+
+/* Estilos para la ubicación navbar*/
+.o-contenedorUbicacionNavBar{
+    display: flex;
+    align-items: center;
+    width: 18em;
+}
+
+/* Estilos para buscador navBar */
+.o-contenedorBusquedaNavBar{
+    width: 567px;
+    height: 60px;
+    background: #FDE2CA;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.o-contenedorBusquedaNavBar input{
+    width: 80%;
+    height: 50%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #413543; 
+}
+
+.o-contenedorBusquedaNavBar button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FACEFF;
+    border: none;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+/* Estilos para dividor entre buscador y foto */
+.o-dividorNavBar{
+    width: 40px;
+    height: 0px;
+    border: 1px solid #FDE2CA;
+    transform: rotate(90deg);
+}
+
+/* Estilos para el logo */
+.o-navBarLogo img{
+    width: 10em;
+}
+
+/* Estilos para el contenedor de la foto perfil*/
+.o-contenedorFotoPerfilNavBar{
+    position: relative;
+    width: 4em;
+    height: 4em;
+    border-radius: 50%; 
+}
+
+.o-contenedorFotoPerfilNavBar img{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+/* Estilos para el menú de la foto perfil*/
+.o-contenedorMenu{
+    position: absolute;
+    right: -5em;
+    top: 7em;
+    width: 211px;
+    height: 200px;
+    background: #FFFFFF;
+    border: 1px solid #FDE2CA;
+    border-radius: 10px;
+}
+
+.o-listaMenu{
+    padding: 0.5em;
+    border-top:  1px solid #FDE2CA;
+}
+
+#o-iconoMenuOpcion{
+    width: 23px;
+    margin: 0em 1em 0em 0em;
+}
+
+.o-item{
+    list-style: none;
+    padding: 1em;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #4D3D3D;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    border-radius: 0.5em;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.o-item:hover{
+    background-color: #FDE2CA;
+}
+
+.o-datosUsuario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em 0em 0em 0em;
+}
+
+.o-contenedorfotopequeña{
+    width: 3em;
+    height: 3em;
+    border-radius: 50%; 
+}
+
+.o-contenedorfotopequeña img{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.o-infoUsuario{
+    display: flex;
+    flex-direction: column;
+    margin: 0em 0em 0em 0.5em
+}
+
+.o-infoUsuario h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #4D3D3D;
+    font-family: 'Poppins';
+    margin: 0em;
+}
+
+.o-infoUsuario h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    color: #4D3D3D;
+    margin: 0em;
+}
+
+/* Estilos para el contenedor que tiene buscardor y foto perfil*/
+.o-contenedorBusquedadDividorFoto{
+    display: flex;
+    align-items: center;
+}
+

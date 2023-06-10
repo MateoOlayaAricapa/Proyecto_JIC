@@ -1,0 +1,84 @@
+.o-contenedorPaginaPrincipal{
+    font-family: 'Poppins';
+}
+
+/* Estilos para el título configuración*/
+.o-tituloConfiguracion{
+    display: flex;
+    align-items: center;
+    padding: 2em 20em 0em 20em;
+}
+
+.o-tituloConfiguracion h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    color: #4D3D3D;
+}
+
+.o-tituloConfiguracion button{
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.o-tituloConfiguracion button img{
+    width: 30px;
+}
+
+/* Estilos para la lista configuración */
+.o-botonesConfiguracion{
+    padding: 0em 20em 0em 20em;
+}
+
+.o-contenedorUl{
+    border-bottom: 2px solid #FDE2CA;
+    padding: 0em;
+    display: flex;
+    list-style: none;
+}
+
+.o-contenedorUl li{
+    margin: -0.1em;
+}
+
+.o-contenedorUl li button{
+    margin: 0em 1em 0em 0em;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0.9em;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #4D3D3D;
+}
+
+/* Estilos para encabezado configuración */
+.o-encabezadoConfiguración{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5em 10em 1.5em 10em;
+    border-bottom: 2px solid #FDE2CA;
+}
+
+.o-logoEncabezado img{
+    width: 10em;
+}
+
+.o-fotoPerfilUsuario{
+    width: 4em;
+    height: 4em;
+    border-radius: 50%; 
+    overflow: hidden;
+}
+
+.o-fotoPerfilUsuario img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

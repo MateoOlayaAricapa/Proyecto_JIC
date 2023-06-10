@@ -1,0 +1,33 @@
+.o-contenedorInputDatos{
+    font-family: 'Poppins';
+    margin: 0.5em;
+}
+
+.o-contenedorInputDatos h2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #896E6E;
+}
+
+.o-contenedorInput{
+    border: 2px solid #FCCDCB;
+    border-radius: 10px;
+    width: 336px;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.o-contenedorInput input{
+    width: 90%;
+    height: 60%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #4D3D3D;
+    border: none;
+    outline: none;
+}

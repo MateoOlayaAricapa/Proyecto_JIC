@@ -1,0 +1,104 @@
+/* Estilos componente InputDatoJardin */
+.o-contenedorCampoEntradaDato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins';
+}
+
+.o-tituloCampoEntrada{
+    width: 100%;
+}
+
+.o-tituloCampoEntrada h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #896E6E;
+}
+
+.o-entradaDato{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.o-entradaDato input{
+    outline: none;
+    width: 100%;
+    height: 66px;
+    border: 2px solid #FCCDCB;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #4D3D3D;
+    padding: 0em 1em 0em 1em;
+}
+
+/* Estilos componente InputSelectDatoJardin */
+.o-contenedorCampoSeleccionDato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins';
+}
+
+.o-tituloCampoSeleccion{
+    width: 100%;
+}
+
+.o-tituloCampoSeleccion h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #896E6E;
+}
+
+.o-entradaSeleccion{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos componente CampoTextAreaDatoJardin*/
+.o-contenedorCampoTextArea{
+    width: 100%;
+}
+
+.o-contenedorCampoTextArea h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #896E6E;
+}
+
+.o-contenedorCampoTextArea textarea{
+    resize: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 1em;
+    outline: none;
+    border: 2px solid #FCCDCB;
+    border-radius: 10px;
+    color: #4D3D3D;
+    width: 72em;
+}
+
+/* Estilos componente InputReactSelectDatoJardin*/
+.o-contenedorServicioNivelesDatosJardin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 83%;
+}
+
+.o-contenedorServicioNivelesDatosJardin h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #896E6E;
+}

@@ -1,0 +1,90 @@
+/* Estilos para el contenedor de las entradas de inicio sesión */
+.o-contenedorSeccionInicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #FCCDCB;
+    border-radius: 45px;
+    width: 35.125em;
+    height: 692px;
+}
+
+
+/* Estilos para el contenedor del título inicio sesión */
+.o-tituloInicioSesion{
+    text-align: center;
+}
+
+.o-tituloInicioSesion h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.875em;
+    color: #856C89;
+    margin: 0em 0em -0.3em 0em;
+}
+
+.o-tituloInicioSesion p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    color: #4D3D3D;
+}
+
+.o-lineaSeparadoraInicioSesion{
+    width: 23.375em;
+    height: 0px;
+    border: 1px solid #FCCDCB;
+}
+
+/* Estilos para el contenedor de entradas inicio sesión */
+.o-contenedorEntradasInicioSesion{
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0em 0em 0em;
+}
+
+/* Estilos para el botón de olvidó la contraseña */
+.o-contenedorBotonContraseña{
+    margin: 1.5em 0em 0em 0em;
+}
+
+.o-contenedorBotonContraseña button{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    color: #4D3D3D;
+    transition-duration: 0.4s;
+}
+
+.o-contenedorBotonContraseña button:hover{
+    color: #FCCDCB;
+}
+
+/* Estilos para el botones de inicio sesión */
+.o-contenedorBotonesInicioSesion{
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0em 0em 0em;
+}
+
+.o-contenedorBotonesInicioSesion button{
+    background: #FCCDCB;
+    border: none;
+    border-radius: 0.938em;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    color: #4D3D3D;
+    width: 373px;
+    height: 55px;
+    margin: 0.5em;
+}
