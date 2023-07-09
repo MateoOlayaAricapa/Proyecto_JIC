@@ -14,4 +14,4 @@ Se utilizó React js, Node.js, MySQL, SQL, Base de datos relacional, Figma y Res
 * LinkedIn: www.linkedin.com/in/mateoolayaaricapa
 
 ## Ejemplo en vivo:
-* YouTube: 
+* YouTube: https://youtu.be/gPyj5vGeiJw  
